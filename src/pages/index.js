@@ -12,8 +12,12 @@ const IndexPage = () => (
   <Layout>
     <section id="banner">
       <div className="inner">
-        <h2>{config.heading}</h2>
-        <p>{config.subHeading}</p>
+        <h1>
+          <a href="https://www.gatsbyjs.org/">Gatsby</a> HTML5Up
+        </h1>
+        <p>
+          <a href="https://github.com/app-generator/gatsby-html5up-spectral">Open-Source</a> app with Spectral design
+        </p>
         <ul className="actions special">
           <li>
             <Scroll type="id" element="one">
