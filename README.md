@@ -27,7 +27,7 @@ Open-source app built with GatsbyJS on top of HTML5Up Spectral design.
 
 ## Support
 
-For Support please access the [Support](https://appseed.us/support) provided by **AppSeed** 
+Please access the official [Support](https://appseed.us/support) page provided by **AppSeed** 
 
 <br />
 
