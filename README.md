@@ -5,7 +5,7 @@ Open-source app built with GatsbyJS on top of HTML5Up Spectral design.
 
 <br />
 
-![GatsbyJS Photon - Gif animated intro.](https://github.com/app-generator/static/blob/master/products/gatsby-html5up-photon-intro.gif?raw=true)
+![GatsbyJS Photon - Gif animated intro.](https://github.com/app-generator/static/blob/master/products/gatsby-html5up-spectral-intro.gif?raw=true)
 
 <br />
 
