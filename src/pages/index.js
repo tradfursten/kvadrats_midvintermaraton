@@ -5,9 +5,10 @@ import Layout from '../components/Layout';
 import Scroll from '../components/Scroll';
 
 import pic1 from '../assets/images/img01.jpg';
-import pic2 from '../assets/images/pic02.jpg';
-import pic3 from '../assets/images/pic03.jpg';
+import pic2 from '../assets/images/img02.jpg';
+import pic3 from '../assets/images/img03.jpg';
 import config from '../../config';
+import { Link } from 'gatsby';
 const IndexPage = () => (
   <Layout>
     <section id="banner">
@@ -38,33 +39,28 @@ const IndexPage = () => (
     <section id="one" className="wrapper style1 special">
       <div className="inner">
         <header className="major">
-          <h2>
-            Arcu aliquet vel lobortis ata nisl
-            <br />
-            eget augue amet aliquet nisl cep donec
-          </h2>
+          <h2>Motivationsboost</h2>
           <p>
-            Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet
-            eleifend
+            Under vintermånaderna behöver vi all pepping som går att uppgringa för
+            att hålla igång löpningen.
             <br />
-            fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus
-            ullamcorper.
+            Vad är inte mer perfekt än att ta sig ut för en virituell löputmaning när julmaten börjar ha lagt sig till rätta.
           </p>
         </header>
         <ul className="icons major">
           <li>
             <span className="icon fa-gem major style1">
-              <span className="label">Lorem</span>
+              <span className="label">Fokuserat</span>
             </span>
           </li>
           <li>
             <span className="icon fa-heart major style2">
-              <span className="label">Ipsum</span>
+              <span className="label">Styrkande</span>
             </span>
           </li>
           <li>
-            <span className="icon solid fa-code major style3">
-              <span className="label">Dolor</span>
+            <span className="icon solid fa-running major style3">
+              <span className="label">Aktivt</span>
             </span>
           </li>
         </ul>
@@ -78,13 +74,10 @@ const IndexPage = () => (
         </div>
         <div className="content">
           <h2>
-            Magna primis lobortis
-            <br />
-            sed ullamcorper
+            Olika distanser
           </h2>
           <p>
-            Aliquam ut ex ut augue consectetur interdum. Donec hendrerit
-            imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.
+            Välj mellan <em>5</em>, <em>10</em>,<em>21</em> eller <em>42</em> kilometer. Du väljer själv bana och starttid.
           </p>
         </div>
       </section>
@@ -94,13 +87,11 @@ const IndexPage = () => (
         </div>
         <div className="content">
           <h2>
-            Tortor dolore feugiat
-            <br />
-            elementum magna
+            Registrera resultat
           </h2>
           <p>
-            Aliquam ut ex ut augue consectetur interdum. Donec hendrerit
-            imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.
+            Registrera ditt resultat <Link to="/Register">HÄR</Link>. Du väljer om du vill länka till en aktivitet på strava, garmin eller liknande.
+            Eller om du nöjer dig med att registrera tiden.
           </p>
         </div>
       </section>

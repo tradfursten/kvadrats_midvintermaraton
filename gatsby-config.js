@@ -3,9 +3,9 @@ const config = require('./config');
 module.exports = {
   pathPrefix: config.pathPrefix,
   siteMetadata: {
-		title: 'Gatsby Html5up - Open-Source app with Spectral design',
-    description: `Open-Source Gatsby Starter`,
-    author: `@Sm0keDev`,
+		title: 'Kvadrats midvintermaraton',
+    description: `Ut och kut!`,
+    author: `@traddfursten`,
 		siteUrl: `https://gatsby-html5up-spectral.appseed.us`,
   },
   plugins: [
