@@ -4,7 +4,7 @@ import Layout from '../components/Layout';
 
 import Scroll from '../components/Scroll';
 
-import pic1 from '../assets/images/pic01.jpg';
+import pic1 from '../assets/images/img01.jpg';
 import pic2 from '../assets/images/pic02.jpg';
 import pic3 from '../assets/images/pic03.jpg';
 import config from '../../config';
@@ -13,16 +13,16 @@ const IndexPage = () => (
     <section id="banner">
       <div className="inner">
         <h1>
-          <a href="https://www.gatsbyjs.org/">Gatsby</a> HTML5Up
+          Kvadrats Midvintermaraton
         </h1>
         <p>
-          <a href="https://github.com/app-generator/gatsby-html5up-spectral">Open-Source</a> app with Spectral design
+          Hör upp alla <a href="https://kvadrat.se">kvadratare</a>! Ut och kut!
         </p>
         <ul className="actions special">
           <li>
             <Scroll type="id" element="one">
               <a href="/#" className="button primary">
-                Explore
+                Vadå då?
               </a>
             </Scroll>
           </li>
@@ -30,7 +30,7 @@ const IndexPage = () => (
       </div>
       <Scroll type="id" element="one">
         <a href="#one" className="more">
-          Learn More
+          Läs mer
         </a>
       </Scroll>
     </section>

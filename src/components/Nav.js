@@ -14,15 +14,18 @@ export default function Nav({ onMenuToggle = () => {} }) {
             }}
             className="menuToggle"
           >
-            <span>Menu</span>
+            <span>Meny</span>
           </a>
           <div id="menu">
             <ul>
               <li>
-                <Link to="/">Home</Link>
+                <Link to="/">Hem</Link>
               </li>
               <li>
-                <Link to="/Generic">Generic Page</Link>
+                <Link to="/Register">Registrera resultat</Link>
+              </li>
+              <li>
+                <Link to="/Results">Resultatlista</Link>
               </li>
               <li>
                 <Link to="/Elements">Elements</Link>
