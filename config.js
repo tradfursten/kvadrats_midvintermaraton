@@ -16,13 +16,13 @@ module.exports = {
       style: 'brands',
       icon: 'fa-github',
       name: 'Github',
-      url: 'https://github.com/app-generator/gatsby-html5up-spectral',
+      url: 'https://github.com/tradfursten/kvadrats_midvintermaraton',
     },
     {
       style: 'brands',
-      icon: 'fa-twitter',
-      name: 'Twitter',
-      url: 'https://twitter.com/webappseed',
+      icon: 'fa-home',
+      name: 'kvadrat.se',
+      url: 'https://www.kvadrat.se/',
     }
   ],
 };

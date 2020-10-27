@@ -22,13 +22,13 @@ export default function Nav({ onMenuToggle = () => {} }) {
                 <Link to="/">Hem</Link>
               </li>
               <li>
+                <Link to="/SignUp">Anmälan</Link>
+              </li>
+              <li>
                 <Link to="/Register">Registrera resultat</Link>
               </li>
               <li>
                 <Link to="/Results">Resultatlista</Link>
-              </li>
-              <li>
-                <Link to="/Elements">Elements</Link>
               </li>
             </ul>
             <a

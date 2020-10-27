@@ -1,6 +1,4 @@
 import React from 'react';
-import { Link } from 'gatsby';
-
 
 import Layout from '../components/Layout';
 
@@ -8,20 +6,19 @@ const IndexPage = () => (
   <Layout fullMenu>
     <article id="main">
       <header>
-        <h2>Skicka in resultat</h2>
-        <p>Profit</p>
+        <h2>Anmälan</h2>
+        <p>Så du inte glömmer bort dig!</p>
       </header>
       <section className="wrapper style5">
         <div className="inner">
-          <h3>Registreringen öppnar den 25:e december</h3>
+          <h3>Anmäl dig!</h3>
           <p>
-            Registreringen öppnar den 25:e december och är öppen till den 1:a januari.
-            <br/>
-            Men du kan anmäla dig nu och ange vilken sträcka du satsar på och vilken tid du hoppas klå: <Link to ="/SignUp">Anmälan</Link>.
+            Loppet går av stapeln mellan den 25:e december och 1:a januari. Men du kan redan nu anmäla dig.
+            Skriv in vilken sträcka du tänker springa och vilken tid du satsar på.
           </p>
-          <form name="raceResultForm" method="POST" data-netlify="true">
+          <form name="signupForm" method="POST" data-netlify="true">
             <div className="row gtr-uniform">
-              <div className="col-6 col-12-xsmall">
+            <div className="col-6 col-12-xsmall">
 								<input type="text" name="name" id="name" defaultValue="" placeholder="Namn" />
 							</div>
 							<div className="col-6 col-12-xsmall">
@@ -38,9 +35,6 @@ const IndexPage = () => (
 							</div>
 							<div className="col-6 col-12-xsmall">
 								<input type="text" pattern="(\d\d:)?\d\d:\d\d" name="email" id="email" defaultValue="" placeholder="Tid (HH:MM:SS)" />
-							</div>
-              <div className="col-6 col-12-xsmall">
-								<input type="text" name="name" id="name" defaultValue="" placeholder="Länk till aktivitet" />
 							</div>
               <div className="col-12">
 								<input type="submit" value="Skicka in anmälan" className="primary" />
