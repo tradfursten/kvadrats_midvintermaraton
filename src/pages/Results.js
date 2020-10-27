@@ -28,7 +28,7 @@ const IndexPage = () => (
               .map(s => {
                 return <tr>
                   <td>{s.name}</td>
-                  <td>{s.distance}</td>
+                  <td><Distance d={s.distance}/></td>
                   <td>{s.time}</td>
                   <td><a href="{s.link}">{s.link}</a></td>
                   </tr>

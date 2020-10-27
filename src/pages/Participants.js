@@ -3,6 +3,7 @@ import {Link} from 'gatsby';
 
 import Layout from '../components/Layout';
 import signups from '../../data/signUps.json';
+import Distance from '../components/Distance';
 
 const IndexPage = () => (
   <Layout fullMenu>
@@ -28,7 +29,7 @@ const IndexPage = () => (
               .map(s => {
                 return <tr>
                   <td>{s.name}</td>
-                  <td>{s.distance}</td>
+                  <td><Distance d={s.distance}/></td>
                   <td>{s.time}</td>
                   </tr>
 
