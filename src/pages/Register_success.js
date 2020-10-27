@@ -10,7 +10,7 @@ const IndexPage = () => (
       <header>
         <h2>Tack för ditt resultat</h2>
         <p>Snart kommer du kunna se dig själv på resultatlistan</p>
-        <Link to="/Results" className="button primary">Resultat</Link>
+        <Link to="/Participants" className="button primary">Anmälda deltagare</Link>
       </header>
     </article>
   </Layout>

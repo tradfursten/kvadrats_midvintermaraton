@@ -9,4 +9,3 @@ yarn.lock
 /public
 .DS_Store
 deploy.js
-data

@@ -1,19 +1,20 @@
 import React from 'react';
+import {Link} from 'gatsby';
 
 import Layout from '../components/Layout';
-import results from '../../data/results.json';
+import signups from '../../data/signUps.json';
 
 const IndexPage = () => (
   <Layout fullMenu>
     <article id="main">
       <header>
-        <h2>Resultat</h2>
-        <p>Inskickade resultat. Bra jobbat allihopa!</p>
+        <h2>Anmälda deltagare</h2>
+        <p>Om du inte har anmält dig redan, gör det</p>
+        <Link to="/SignUp" className="button primary">Anmälan</Link>
       </header>
       <section className="wrapper style5">
         <div className="inner">
-          <h3>Resultatlista</h3>
-          <p>Resultaten kommer att publiceras så fort de kommer in.</p>
+          <h3>Anmälda</h3>
           <div className="table-wrapper">
             <table>
               <thead>
@@ -21,17 +22,17 @@ const IndexPage = () => (
                   <th>Namn</th>
                   <th>Distans</th>
                   <th>Tid</th>
-                  <th>Länk</th>
                 </tr>
               </thead>
-              <tbody>{results
+              <tbody>{signups
               .map(s => {
                 return <tr>
                   <td>{s.name}</td>
                   <td>{s.distance}</td>
                   <td>{s.time}</td>
-                  <td><a href="{s.link}">{s.link}</a></td>
                   </tr>
+
+                
               })}</tbody>
             </table>
           </div>
