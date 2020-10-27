@@ -36,7 +36,7 @@ const IndexPage = () => (
 								</select>
 							</div>
 							<div className="col-6 col-12-xsmall">
-								<input type="text" pattern="(\d\d:)?\d\d:\d\d" name="time" id="time" defaultValue="" placeholder="Tid (HH:MM:SS)" />
+								<input type="text" pattern="(\d?\d:)?\d\d:\d\d" name="time" id="time" defaultValue="" placeholder="Tid (HH:MM:SS)" />
 							</div>
               <div className="col-12">
 								<input type="submit" value="Skicka in anmälan" className="primary" />
