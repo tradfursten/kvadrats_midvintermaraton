@@ -16,7 +16,7 @@ const IndexPage = () => (
             Loppet går av stapeln mellan den 25:e december och 1:a januari. Men du kan redan nu anmäla dig.
             Skriv in vilken sträcka du tänker springa och vilken tid du satsar på.
           </p>
-          <form name="signupForm" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+          <form name="signupForm" method="POST" action="/SignUp_success" data-netlify="true" netlify-honeypot="bot-field">
           <input type="hidden" name="bot-field" />
           <input type="hidden" name="form-name" value="signupForm" />
             <div className="row gtr-uniform">
@@ -36,7 +36,7 @@ const IndexPage = () => (
 								</select>
 							</div>
 							<div className="col-6 col-12-xsmall">
-								<input type="text" pattern="(\d\d:)?\d\d:\d\d" name="email" id="email" defaultValue="" placeholder="Tid (HH:MM:SS)" />
+								<input type="text" pattern="(\d\d:)?\d\d:\d\d" name="email" id="time" defaultValue="" placeholder="Tid (HH:MM:SS)" />
 							</div>
               <div className="col-12">
 								<input type="submit" value="Skicka in anmälan" className="primary" />
