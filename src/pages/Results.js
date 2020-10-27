@@ -2,6 +2,7 @@ import React from 'react';
 
 import Layout from '../components/Layout';
 import results from '../../data/results.json';
+import Distance from '../components/Distance';
 
 const IndexPage = () => (
   <Layout fullMenu>
