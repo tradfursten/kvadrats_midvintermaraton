@@ -30,7 +30,7 @@
     "deploy": "gatsby clean && gatsby build && node deploy",
     "start": "gatsby clean && gatsby develop",
     "develop": "gatsby develop",
-    "build": "npm run clean && gatsby build",
+    "build": "node getFromNetlify.js && npm run clean && gatsby build",
     "serve": "gatsby serve",
     "clean": "rimraf .cache public",
     "format": "prettier --write '**/*.js'",
