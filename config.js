@@ -1,5 +1,5 @@
 module.exports = {
-  siteTitle: 'Kvadrats Midvintermaraton', // <title>
+  siteTitle: 'Kvadrats Midvintermarathon', // <title>
   manifestName: 'Spring i vinter!',
   manifestShortName: 'Landing', // max 12 characters
   manifestStartUrl: '/',
