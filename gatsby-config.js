@@ -3,10 +3,10 @@ const config = require('./config');
 module.exports = {
   pathPrefix: config.pathPrefix,
   siteMetadata: {
-		title: 'Kvadrats midvintermaraton',
+    title: 'Kvadrats midvintermaraton',
     description: `Ut och kut!`,
     author: `@traddfursten`,
-		siteUrl: `https://gatsby-html5up-spectral.appseed.us`,
+    siteUrl: `https://kvadrats-midvintermarathon.netlify.app/`,
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -20,6 +20,14 @@ module.exports = {
         theme_color: config.manifestThemeColor,
         display: config.manifestDisplay,
         icon: config.manifestIcon, // This path is relative to the root of the site.
+      },
+    },
+    {
+      resolve: `gatsby-plugin-goatcounter`,
+      options: {
+        // Either `code` or `selfHostUrl` is required.
+        // REQUIRED IF USING HOSTED GOATCOUNTER! https://[my_code].goatcounter.com
+        code: 'vintermaraton',
       },
     },
     'gatsby-plugin-sass',
