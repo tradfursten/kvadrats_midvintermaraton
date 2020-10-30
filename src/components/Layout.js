@@ -65,6 +65,8 @@ class Layout extends Component {
                 <Footer />
               </div>
             </div>
+            <script data-goatcounter="https://vintermaraton.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
           </>
         )}
       />
