@@ -13,7 +13,7 @@ const IndexPage = () => (
   <Layout>
     <section id="banner">
       <div className="inner">
-        <h1>25:e december - 1:a januari</h1>
+        <h1>24:e december - 1:a januari</h1>
         <h2>
           Kvadrats Midvintermaraton
         </h2>

@@ -27,13 +27,12 @@ export default function Nav({ onMenuToggle = () => {} }) {
               <li>
                 <Link to="/Participants">Anmälda deltagare</Link>
               </li>
-              {/*<li>
+              <li>
                 <Link to="/Register">Registrera resultat</Link>
               </li> 
               <li>
                 <Link to="/Results">Resultatlista</Link>
               </li>
-              */}
             </ul>
             <a
               className="close"

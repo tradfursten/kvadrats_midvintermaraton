@@ -13,9 +13,9 @@ const IndexPage = () => (
       </header>
       <section className="wrapper style5">
         <div className="inner">
-          <h3>Registreringen öppnar den 25:e december</h3>
+          <h3>Registreringen öppnar den 24:e december</h3>
           <p>
-            Registreringen öppnar den 25:e december och är öppen till den 1:a januari.
+            Registreringen öppnar den 24:e december och är öppen till den 1:a januari.
             <br/>
             Men du kan anmäla dig nu och ange vilken sträcka du satsar på och vilken tid du hoppas klå: <Link to ="/SignUp">Anmälan</Link>.
           </p>
@@ -42,7 +42,7 @@ const IndexPage = () => (
 								<input type="text" pattern="(\d?\d:)?\d\d:\d\d" name="time" id="time" defaultValue="" placeholder="Tid (HH:MM:SS)" />
 							</div>
               <div className="col-6 col-12-xsmall">
-								<input type="text" name="name" id="link" defaultValue="" placeholder="Länk till aktivitet" />
+								<input type="text" name="name" id="link" defaultValue="" placeholder="Länk till aktivitet (frivilligt)" />
 							</div>
               <div className="col-12">
 								<input type="submit" value="Skicka in anmälan" className="primary" />
