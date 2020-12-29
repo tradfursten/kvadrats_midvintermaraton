@@ -42,7 +42,7 @@ const IndexPage = () => (
 								<input type="text" pattern="(\d?\d:)?\d\d:\d\d" name="time" id="time" defaultValue="" placeholder="Tid (HH:MM:SS)" />
 							</div>
               <div className="col-6 col-12-xsmall">
-								<input type="text" name="name" id="link" defaultValue="" placeholder="Länk till aktivitet (frivilligt)" />
+								<input type="text" name="link" id="link" defaultValue="" placeholder="Länk till aktivitet (frivilligt)" />
 							</div>
               <div className="col-12">
 								<input type="submit" value="Skicka in anmälan" className="primary" />
