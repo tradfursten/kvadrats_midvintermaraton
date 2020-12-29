@@ -31,7 +31,7 @@ const IndexPage = () => (
                   <td>{s.name}</td>
                   <td><Distance d={s.distance}/></td>
                   <td>{s.time}</td>
-                  <td><a href="{s.link}">{s.link}</a></td>
+                  <td><a href={s.link}>{s.link}</a></td>
                   </tr>
               })}</tbody>
             </table>
